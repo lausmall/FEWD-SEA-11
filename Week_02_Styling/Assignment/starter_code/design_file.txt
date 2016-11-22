@@ -26,7 +26,7 @@ Weight: Light, Light Italic, Semibold, Extrabold
 • Responds to emails on your behalf
 • Does all your work for you with our revolutionary AI technology" - Light, 13px
 
-"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+"“Relaxr changed my life. I’ve been able to travel the world, spend limited time worqking and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
 "- Amanda, Intuit " - semibold, 18px
 
 "Sign Up Now!" - extra bold, 12px, 5px border radius
