@@ -45,7 +45,7 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-div .container1 {
+div.container1 {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
@@ -54,23 +54,23 @@ div .container1 {
       background-size: cover;
 }
 
-div .container2 {
+div.container2 {
     background-color: #f0efef
    
 }
 
-div .container3 {
+div.container3 {
     background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
 
 }
 
-div .container4 {
+div.container4 {
   background-color: #f9e42e;
 
 }
 
-div .container5 {
+div.container5 {
 background-color: #121212;
 
 }
@@ -101,7 +101,7 @@ footer {
 /*******************************************/
 
 
-.container1 h1{
+h1.container1{
 
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
@@ -110,7 +110,7 @@ footer {
 
 }
 
-.container1 h2 {
+h2.container2 {
 
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
@@ -119,7 +119,7 @@ footer {
 }
 
 
-.container1 button {
+button.container1 {
 
   border: 5px;
   font-family: 'Open Sans', sans-serif;
@@ -134,19 +134,19 @@ footer {
 }
 
 
-.container2 h1 {
+h1.container2 {
  font-size: 20px
  color: #033048;
 
 }
 
-.container2 p {
+p.container2  {
   font-size: 13px
   color: #606161;
 
 }
 
-.container3 p {
+p.container3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 
@@ -159,27 +159,27 @@ footer {
 
 }
 
-.container4 button {
+button.container4 {
   background-color: #033048;
   align-content: center;
 
 }
 
-.containr5 h1 {
+h1.containr5 {
   text-align: center
   color: #f9e42e;
   font-size: 24px; 
 
 }
 
-.container5 footer {
+footer.container5 {
 text-align: center;
 color: white;
 font-size: 9px;
 
 }
 
-.container5 img {
+img.container5 {
   align-content: center;
 
 }
