@@ -5,6 +5,8 @@ Author: Your Name
 Developer @GA in NYC
 */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i')
+
 
 /******************************************
 /* SETUP
@@ -45,32 +47,31 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
-div.container1 {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+
+
+div#container1 {
+     color: #fff;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+    background-size: cover;
 }
 
-div.container2 {
+div#container2 {
     background-color: #f0efef
    
 }
 
-div.container3 {
+div#container3 {
     background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
 
 }
 
-div.container4 {
+div#container4 {
   background-color: #f9e42e;
 
 }
 
-div.container5 {
+div#container5 {
 background-color: #121212;
 
 }
@@ -80,14 +81,20 @@ background-color: #121212;
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 100%;
   margin: auto;
   height: 500px;
   font-family: 'Open Sans', sans-serif;
-
+  padding: 50px;
 }
 
+
+.cta {
+  text-align: center;
+  margin: 50px;
+
+}
 header {
 
 }
@@ -101,85 +108,88 @@ footer {
 /*******************************************/
 
 
-h1.container1{
+#container1 h1 {
 
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
-  color: white
-
-
+  font-size: 38px;
+  font-weight: 800px;
+  color: #fff;
 }
 
-h2.container2 {
+#container1 h2 {
 
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  font-weight: 600px;
+  color: #fff;
   align-content: center;
 }
 
 
-button.container1 {
-
+#container1 button {
   border: 5px;
   font-family: 'Open Sans', sans-serif;
   align-content: center;
   font-size: 14px;
-  color: #f9e42e;
+  font-weight: 800px;
+  color: #033048;
+  background-color: #f9e42e;
+  margin: 50px;
 }
 
-.container2 {
-  background-color: #f0efef
+#container2 {
+  background-color: #f0efef;
 
 }
 
 
-h1.container2 {
- font-size: 20px
+#container2 h1 {
+ font-size: 20px;
  color: #033048;
 
 }
 
-p.container2  {
-  font-size: 13px
+#container2 p {
+  font-size: 13px;
   color: #606161;
 
 }
 
-p.container3 {
+#container3 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 
 }
 
-.container4 {
+#container4 {
   background-color: #f9e42e;
   text-align: center;
   color: white;
 
 }
 
-button.container4 {
+#container4 button{
   background-color: #033048;
   align-content: center;
 
 }
 
-h1.containr5 {
-  text-align: center
+#containr5 h1{
+  text-align: center;
   color: #f9e42e;
   font-size: 24px; 
 
 }
 
-footer.container5 {
+#container5 footer {
 text-align: center;
 color: white;
 font-size: 9px;
 
 }
 
-img.container5 {
+#container5 img {
   align-content: center;
 
 }
