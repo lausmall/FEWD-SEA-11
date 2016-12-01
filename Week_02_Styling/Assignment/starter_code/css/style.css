@@ -79,20 +79,17 @@ background-color: #121212;
 
 /* Center the container */
 .container {
-  width: 100%;
-  margin: auto;
-  height: 400px;
-  font-family: 'Open Sans', sans-serif;
-  padding: 50px;
+  width: 960px;
+  margin: 0 auto;
 }
 
 #intro {
   width: 100%;
   margin: auto;
-  height: 400px;
+  height: 700px;
   padding: 50px;
-  background-position: center;
-  background-size: cover;
+  background: cover no-repeat top center;
+  padding-top: 32px;
 
 }
 
@@ -124,6 +121,7 @@ background-color: #121212;
   padding: 50px;
   background-position: center;
   background-size: cover;
+  height: 110px;
 
 
 }
@@ -156,7 +154,7 @@ footer {
 
 #intro h1 {
 
-  font-size: 38px;
+  font-size: 28px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   color: #fff;
@@ -164,25 +162,26 @@ footer {
 
 #intro h2 {
 
-  font-size: 24px;
+  font-size: 28px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #fff;
-  align-content: center;
+  text-align: center;
+  margin: 120px 0 90px;
 }
 
 
 #intro button {
-  border: 5px;
+  border-radius: 5px;
   font-family: 'Open Sans', sans-serif;
-  align-content: center;
+  text-align: center;
   font-size: 16px;
   font-weight: 800;
   color: #033048;
   background-color: #f9e42e;
-  margin: 50px;
+  margin: 0 auto;
   padding: 15px 30px;
-  display: inline-block;
+  display: block;
   text-align: center;
   border-radius: 4px;
 }
@@ -194,20 +193,23 @@ footer {
 
 
 #benefits h1 {
- font-size: 24px;
+ font-size: 28px;
  font-weight: 600; 
  color: #033048;
  font-family: 'Open Sans', sans-serif;
  margin-left: 100px;
+ margin-bottom: 20px;
+
 
 }
 
 #benefits p {
   font-size: 13px;
   font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
   color: #606161;
   line-height: 1.7em;
-  width: 50%;
+  width: 600px;
   margin-left: 100px;
 
 }
@@ -215,33 +217,41 @@ footer {
 #benefits ul {
   font-size: 13px;
   font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
   color: #606161;
   line-height: 1.7em;
   margin-left: 150px; 
 
 }
 
-#customer p {
-  font-size: 18px;
+blockquote {
+  font-size: 20px;
   color: #fff;
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
-  margin: 10px 250px;
-  align-content: center;
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+  padding-top: 40px;
+  line-height: 1.7em;
 
 }
 
-#customer p .customer {
-  font-weight: 600;  
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
 
 }
+
+
 
 
 #cta {
   background-color: #f9e42e;
   text-align: center;
-  margin: auto;
+  padding: 30px;
 
 }
 
@@ -256,7 +266,6 @@ footer {
   font-weight: 300;
   color: #fff;
   background-color: #033048;
-  margin: auto;
   padding: 15px 30px;
   text-align: center;
   border-radius: 4px;
@@ -276,12 +285,14 @@ footer {
   display: inline-block;
   list-style: none;
   margin: 0 75px 0px;
-  text-align: center;
+  image-rendering: center;
+  position: relative;
+
 
 }
 
 #social ul li.twitter {
-  margin-left: 200px;
+  margin-left: 500px;
 
 }
 
@@ -292,10 +303,11 @@ footer {
 }
 
 footer {
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 800;
   color: #fff;
   text-align: center;
+  margin-top: 10px;
 
 }
 
