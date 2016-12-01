@@ -5,8 +5,6 @@ Author: Your Name
 Developer @GA in NYC
 */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i')
-
 
 /******************************************
 /* SETUP
@@ -49,29 +47,28 @@ Developer @GA in NYC
 
 
 
-div#container1 {
-     color: #fff;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+#intro {
+    color: #fff;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
 }
 
-div#container2 {
+#benefits {
     background-color: #f0efef
    
 }
 
-div#container3 {
+#customer {
     background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
     background-size: cover;
 
 }
 
-div#container4 {
+#cta {
   background-color: #f9e42e;
 
 }
-
-div#container5 {
+#social {
 background-color: #121212;
 
 }
@@ -84,18 +81,56 @@ background-color: #121212;
 .container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 400px;
   font-family: 'Open Sans', sans-serif;
   padding: 50px;
 }
 
+#intro {
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  padding: 50px;
+
+}
+
+#benefits {
+  width: 100%;
+  margin: auto;
+  height: 300px;
+  padding: 50px;
+
+}
+
+#customer {
+  width: 100%;
+  margin: auto;
+  height: 300px;
+  padding: 50px;
+
+}
+
+#cta {
+  width: 100%;
+  margin: auto;
+  height: 150px;
+  padding: 50px;
+
+
+}
+
+#social {
+  width: 100%;
+  margin: auto;
+  height: 150px;
+  padding: 50px;
+
+
+}
 
 .cta {
   text-align: center;
   margin: 50px;
-
-}
-header {
 
 }
 
@@ -108,89 +143,151 @@ footer {
 /*******************************************/
 
 
-#container1 h1 {
+#intro h1 {
 
-  font-size: 24px;
-  font-family: 'Open Sans', sans-serif;
   font-size: 38px;
-  font-weight: 800px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
   color: #fff;
 }
 
-#container1 h2 {
+#intro h2 {
 
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 600px;
+  font-weight: 600;
   color: #fff;
   align-content: center;
 }
 
 
-#container1 button {
+#intro button {
   border: 5px;
   font-family: 'Open Sans', sans-serif;
   align-content: center;
-  font-size: 14px;
-  font-weight: 800px;
+  font-size: 16px;
+  font-weight: 800;
   color: #033048;
   background-color: #f9e42e;
   margin: 50px;
+  padding: 15px 30px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
 }
 
-#container2 {
+#benefits {
   background-color: #f0efef;
 
 }
 
 
-#container2 h1 {
- font-size: 20px;
+#benefits h1 {
+ font-size: 24px;
+ font-weight: 600; 
  color: #033048;
+ font-family: 'Open Sans', sans-serif;
+ margin-left: 100px;
 
 }
 
-#container2 p {
+#benefits p {
   font-size: 13px;
+  font-weight: 300;
   color: #606161;
+  line-height: 1.7em;
+  width: 50%;
+  margin-left: 100px;
 
 }
 
-#container3 p {
-  font-family: 'Open Sans', sans-serif;
+#benefits ul {
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+  line-height: 1.7em;
+  margin-left: 150px; 
+
+}
+
+#customer p {
   font-size: 18px;
-
-}
-
-#container4 {
-  background-color: #f9e42e;
-  text-align: center;
-  color: white;
-
-}
-
-#container4 button{
-  background-color: #033048;
+  color: #fff;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  margin: 10px 250px;
   align-content: center;
 
 }
 
-#containr5 h1{
+#customer p .customer {
+  font-weight: 600;  
+
+}
+
+
+#cta {
+  background-color: #f9e42e;
+  text-align: center;
+  margin: auto;
+
+}
+
+
+
+#cta button{
+  background-color: #033048;
+  align-content: center;
+  border: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #033048;
+  margin: auto;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 4px;
+}  
+
+}
+
+#social h1{
   text-align: center;
   color: #f9e42e;
   font-size: 24px; 
+  font-weight: 800px;
 
 }
 
-#container5 footer {
-text-align: center;
-color: white;
-font-size: 9px;
+#social ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 75px 0px;
+  text-align: center;
 
 }
 
-#container5 img {
-  align-content: center;
+#social ul li.twitter {
+  margin-left: 200px;
 
 }
+
+#social ul p {
+  padding-left: 100px;
+  text-align: center;
+
+}
+
+footer {
+  font-size: 9px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+
+}
+
+
+
 
